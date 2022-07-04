@@ -16,7 +16,6 @@ It must implements basic functionalities of a shell like environment variable, b
 - ``CTRL-\``
 - ``CTRL-D``
 - ``|`` pipes
-- ``;`` semicolons
 - ``>`` ``>>`` ``<`` ``<<`` redirections
 - local variable
 - env expansions + ``$?``
@@ -24,10 +23,7 @@ It must implements basic functionalities of a shell like environment variable, b
 - termcaps
 - history (up/down arrows)
 - move cursor (left/right arrows)
-- move word by word (CTRL-left/CTRL-right)
-- move to beginning/end of line (HOME/END)
 - change line (CTRL-UP/CTRL-DOWN)
-- copy/paste/cut from cursor position (ALT-X/ALT-C/ALT-V)
 
 ## Usage
 
